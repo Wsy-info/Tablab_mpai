@@ -122,7 +122,7 @@ p1 <- ggplot(df, aes(x = cell, y = count, fill = class)) +
   ) +
   scale_x_discrete(labels = setNames(gsub(".*!", "", df$cell), df$cell))
 
-#设置颜色
+### set origin color
 color_heart <- c('#cb4936', '#ff0000', '#984EA3', '#1616c8', '#0D63A5',
                  '#A12568', '#F7C394', '#F499C1', '#20b2aa', '#ade87c',
                  '#EE4590', '#0d6c0d', '#6A5ACD')

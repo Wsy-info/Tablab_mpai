@@ -122,7 +122,7 @@ p1 <- ggplot(df, aes(x = cell, y = count, fill = class)) +
   ) +
   scale_x_discrete(labels = setNames(gsub(".*!", "", df$cell), df$cell))
 
-#设置颜色
+### set origin color
 color_kidney <- c('#CBDF9AFF', '#cb4936', '#1616c8', '#007ABA', '#8B58A4',
                   '#DF75AE', '#00B7CA', '#A8C7E9', '#E91E25', '#F37121',
                   '#FBB36E', '#F58D93', '#00A163', '#8CCA7C', '#EE4590')

@@ -122,7 +122,7 @@ p1 <- ggplot(df, aes(x = cell, y = count, fill = class)) +
   ) +
   scale_x_discrete(labels = setNames(gsub(".*!", "", df$cell), df$cell))
 
-#设置颜色
+### set origin color
 color_brain <- c("#0073C2FF", "#EEC000FF", "#CD534CFF", "#00CC33FF", "#984EA3",
                  "#8F7700FF", "#FCCDE5", "#C46DA0FF", "#F0027F", "#374E55FF",
                  "#FD6467", "#0B775E", "#FF59FF", "#FDC086", "#5B1A18",

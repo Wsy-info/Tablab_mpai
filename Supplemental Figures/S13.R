@@ -122,7 +122,7 @@ p1 <- ggplot(df, aes(x = cell, y = count, fill = class)) +
   ) +
   scale_x_discrete(labels = setNames(gsub(".*!", "", df$cell), df$cell))
 
-#设置颜色
+### set origin color
 color_liver <- c("#3CB371", "#CBDF9AFF", "#4682B4", "#483D8B", "#008B8B",
                  "#FF8C00", "#FD6467")
 cluster_order <- c("HSC", "EC", "Cho", "Kup", "PC-Hep",

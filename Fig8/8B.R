@@ -1,4 +1,4 @@
-### Figure 9
+### Figure 8
 ### B
 
 ### load rev- and pro-aging DEGs data

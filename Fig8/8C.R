@@ -1,4 +1,4 @@
-### Figure 9
+### Figure 8
 ### C
 
 library(Seurat)
